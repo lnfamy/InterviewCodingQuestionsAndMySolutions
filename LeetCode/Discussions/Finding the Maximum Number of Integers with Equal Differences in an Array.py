@@ -33,3 +33,13 @@ def max_chosen_integers(A):
                 break
         max_count = max(max_count, count)
     return max_count
+
+if __name__ == '__main__':
+    A = [4, 7, 1, 5, 3]
+    print(max_chosen_integers(A))  # 4
+
+    A = [12, 12, 12, 15, 10]
+    print(max_chosen_integers(A))  # 3
+
+    A = [18, 26, 18, 24, 24, 20, 22]
+    print(max_chosen_integers(A))  # 5
