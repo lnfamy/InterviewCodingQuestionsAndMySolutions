@@ -39,11 +39,15 @@ def closest_to_target(oxygen_levels, target):
 
     return min_diff
 
-# Input
-N = int(input())
-oxygen_levels = [int(input()) for _ in range(N)]
-target = int(input())
+if __name__ == '__main__':
+    # Input
+    # N = int(input())
+    # oxygen_levels = [int(input()) for _ in range(N)]
+    # target = int(input())
+    N = 4
+    oxygen_levels = [9, 12, 3, 7]
+    target = 5
 
-# Output
-result = closest_to_target(oxygen_levels, target)
-print(result)
+    # Output
+    result = closest_to_target(oxygen_levels, target)
+    print(result)
